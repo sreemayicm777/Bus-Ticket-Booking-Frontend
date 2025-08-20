@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 function Home() {
   const [buses, setBuses] = useState([]);
   const [loading, setLoading] = useState(false);
